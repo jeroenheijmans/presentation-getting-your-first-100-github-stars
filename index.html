@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="./reveal-js/reset.css">
     <link rel="stylesheet" href="./reveal-js/reveal.css">
     <link rel="stylesheet" href="./reveal-js/black.css" id="theme">
+
+    <style>
+      .polaroid {
+        border: 10px solid white;
+        border-bottom-width: 60px;
+        box-shadow: 10px 10px 10px #000,
+                    -3px 10px 10px #000,
+                    10px -3px 10px #000,
+                    -3px -3px 10px #000;
+      }
+    </style>
   </head>
   <body>
     <div class="reveal">
@@ -17,37 +28,129 @@
           <h1>Getting Your First 100 GitHub Stars</h1>
           <h2>Jeroen Heijmans</h2>
         </section>
+
         <section>
-          TODO: Convert notes to further slides.
+          <section>
+            <h1>Story time</h1>
+            <img src="assets/jeroen-young.jpg" alt="portrait of young Jeroen" class="polaroid">
+            <aside class="notes">
+              Short story.<br>
+              Born in '82.<br>
+              Early interest in computers.<br>
+              In the photo still happy 😉.<br>
+              AI degree.<br>
+            </aside>
+          </section>
+          <section>
+            <h1>Story time</h1>
+            <img src="assets/jeroen-studying.jpg" alt="portrait of college Jeroen" class="polaroid">
+            <aside class="notes">
+              Story continued.<br>
+              AI before it was cool.<br>
+              Philosophy best part.<br>
+            </aside>
+          </section>
+          <section>
+            <h1>Philosophy of Language</h1>
+            <p>Socrates, Plato, Aristotle, Frege, Wittgenstein, Russel, Gödel, Quine, Chomsky, Kripke...</p>
+          </section>
+          <section>
+            <h1>Philosophy of Language</h1>
+            <p><s>The</s> One perfect path to become a programmer.</p>
+          </section>
+          <section>
+            <h1>Logic and Reasoning</h1>
+            <p>Another perfect bit of preparation to become a programmer.</p>
+          </section>
+          <section>
+            <h1>Logical Fallacy ("Drogreden")</h1>
+            <p><a href="https://nl.wikipedia.org/wiki/Drogreden" target="_blank">The Wikipedia article on "Drogreden"</a> is fun!</p>
+            <p>(<a href="https://en.wikipedia.org/wiki/Fallacy">The English article</a> is also interesting, albeit less fun.)</p>
+          </section>
+          <section>
+            <h1>Why this story?</h1>
+            <p>Fallacies are related to <a href="https://en.wikipedia.org/wiki/False_advertising">False Advertising</a>.</p>
+            <p>Specifically I might've baited you here with...</p>
+          </section>
+          <section>
+            <h1>Getting Your First 100 GitHub Stars</h1>
+            <p>👆 This was false advertising. ☝</p>
+          </section>
+          <section>
+            <h1><em>A</em> Path to Your First 100 GitHub Stars</h1>
+            <p>👆 This is more truthful. ☝</p>
+          </section>
+          <section>
+            <h1>Remarks, Feedback, Experiences</h1>
+            <p>Questions are always welcome!</p>
+            <p>But so are remarks, feedback, and other experiences.</p>
+          </section>
         </section>
+        
         <section>
-          TODO: Convert notes to further slides.
+          <section>
+            <h1>Types of Open Source</h1>
+          </section>
+          <!--Only a few types?-->
+          <!--Show my own history and when created what-->
+          <!--Learning new things, plug presentation-->
+          <!--Seven ways, highlight example-making-->
+          <!--Explain exemplary examples-->
         </section>
+
         <section>
-          TODO: Convert notes to further slides.
+          <section>
+            <h1>Demonstrations</h1>
+          </section>
+          <!--live demonstration here-->
+          <!--backup slides here, short version of the demo-->
+          <!--show small examples-->
+          <!--show 100 stars example-->
         </section>
+
         <section>
-          <p>Thanks for following this presentation!</p>
+          <section>
+            <h1>Benefits</h1>
+          </section>
+          <!--concluding slides-->
         </section>
+
         <section>
-          <h2>References</h2>
-          <ul>
-            <li>TODO</li>
-            <li>TODO</li>
-            <li>TODO</li>
-          </ul>
+          <section>
+            <h1>Thank you!</h1>
+            <p>Thanks for following this presentation.</p>
+          </section>
+          <section>
+            <h1>Questions or Remarks?</h1>
+          </section>
+          <section>
+            <h2>References</h2>
+            <ul>
+              <li>https://www.uu.nl/bachelors/kunstmatige-intelligentie</li>
+              <li>https://en.wikipedia.org/wiki/Philosophy_of_language</li>
+              <li>https://www.britannica.com/topic/philosophy-of-language</li>
+              <li>https://nl.wikipedia.org/wiki/Drogreden (Dutch)</li>
+              <li>https://en.wikipedia.org/wiki/Fallacy (English)</li>
+              <li>https://en.wikipedia.org/wiki/False_advertising</li>
+              <li>TODO</li>
+              <li>TODO</li>
+              <li>TODO</li>
+            </ul>
+          </section>
         </section>
       </div>
     </div>
 
     <script src="./reveal-js/reveal.js"></script>
+		<script src="./reveal-js/plugins/notes/notes.js"></script>
     <script>
       Reveal.initialize({
+        transition: 'fade',
         slideNumber: true,
         history: true,
         width: 1920,
         height: 1080,
-        plugins: [ ]
+        plugins: [ RevealNotes ]
       });
     </script>
   </body>
